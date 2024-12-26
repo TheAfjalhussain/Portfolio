@@ -2,11 +2,11 @@
 import React from 'react'
 import { GlareCardDemo } from './magicui/Cards'
 import { motion } from 'framer-motion'
-import {AnimatedGridPatternDemo} from "./magicui/AnimatedGrid"
 
 
 const Plans = () => {
   return (
+    
      <div className="h-full py-20 xl:h-screen w-full flex-col items-center justify-center md:justify-between px-6 md:px-20 gap-6 overflow-hidden">
       
       <motion.h2
@@ -18,9 +18,10 @@ const Plans = () => {
         >
           Our <span className="text-blue-500">Services</span>
         </motion.h2>
-        {/* <AnimatedGridPatternDemo/> */}
+        
       < GlareCardDemo/>
      </div>
+    
   
   )
 }

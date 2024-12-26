@@ -1,13 +1,10 @@
 import { cn } from "@/lib/utils";
 import AnimatedGridPattern from "../ui/animated-grid-pattern"
-// import SignupFormDemo from "../signup-form-demo";
-import { GlareCardDemo } from "./Cards";
 
 export function AnimatedGridPatternDemo() {
   return (
     <div className="relative flex h-[700px] w-full items-center justify-start overflow-hidden rounded-lg border bg-background p-20 md:shadow-xl">
-      {/* < GlareCardDemo/> */}
-
+      
       {/* <SignupFormDemo/> */}
       <AnimatedGridPattern
         numSquares={30}

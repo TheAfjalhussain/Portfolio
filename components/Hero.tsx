@@ -6,12 +6,7 @@ import { TypewriterEffectSmoothDemo } from './magicui/TypeWriter';
 import Button from './ui/Button';
 import Link from 'next/link';
 import {
-  IconBrandCodecov,
-  IconBrandGithub,
-  IconBrandLinkedin,
-  IconBrandTwitter,
   IconMail,
-  IconAddressBook,
   IconPhoneCall
 } from "@tabler/icons-react";
 
