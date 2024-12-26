@@ -1,6 +1,5 @@
 import React from 'react'
 import SignupFormDemo from './signup-form-demo'
-import { AnimatedGridPatternDemo } from './magicui/AnimatedGrid'
 
 const Contact = () => {
   return (

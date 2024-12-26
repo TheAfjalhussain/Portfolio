@@ -15,7 +15,7 @@ import {
 const Hero = () => {
   return (
     <div id='hero' className=" min-h-screen w-full px-4 md:px-16 lg:px-72 py-16 md:py-6 ">
-      <div className='text-gray-500 md:pb-20 flex justify-between'>
+      <div className='text-gray-500 md:pb-20 flex md:justify-between flex-col md:flex-row justify-center pb-8 items-center gap-2'>
       <button
           className="relative group/btn flex space-x-2 items-center justify-start px-4 py-2 rounded-md font-medium bg-zinc-900 text-neutral-300 shadow-lg hover:shadow-xl transition-all"
           type="button"
@@ -55,8 +55,7 @@ const Hero = () => {
           strong passion for learning and exploring new technologies. Dedicated to identifying 
           people's pain points and solving them through innovative software and product solutions. 
           Eager to leverage technical skills and entrepreneurial vision to build impactful solutions. 
-          {/* and establish a successful business.with a passion for building creative proand efficient applications */}
-            {/* I&apos;m a 21-year-old BCS student and aspiring full-stack developer. I&apos;m skilled in React, Node.js, and the MERN stack, with a passion for building creative and efficient applications. Currently, I&apos;m focused on honing my development skills and exploring new skills. */}
+          
           </div>
         </div>
         <div className="px-4 mb-6 md:mb-0">
@@ -72,9 +71,7 @@ const Hero = () => {
           <TypewriterEffectSmoothDemo/>
       </div>
      
-      {/* <div className='py-32 flex items-center justify-center'>
-        <Link href="https://bento.me/karan-dev"><SafariDemo/></Link>
-      </div> */}
+     
       
     </div>
 

@@ -5,7 +5,7 @@ export function AnimatedGridPatternDemo() {
   return (
     <div className="relative flex h-[700px] w-full items-center justify-start overflow-hidden rounded-lg border bg-background p-20 md:shadow-xl">
       
-      {/* <SignupFormDemo/> */}
+      
       <AnimatedGridPattern
         numSquares={30}
         maxOpacity={0.1}
