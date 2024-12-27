@@ -9,6 +9,8 @@ import {
   IconMail,
   IconPhoneCall
 } from "@tabler/icons-react";
+import Image from 'next/image';
+
 
 
 
@@ -63,7 +65,11 @@ const Hero = () => {
             className="rounded-full h-35 w-35 md:h-40 md:w-40 lg:h-44 lg:w-44 object-cover"
             src="https://img.freepik.com/premium-vector/boy-with-shirt-that-says-hes-character_1230457-34191.jpg?w=360"
             alt="profile_pic"
+            
           />
+          
+            
+          
         </div>
       </div>
 

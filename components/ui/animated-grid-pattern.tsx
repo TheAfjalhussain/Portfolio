@@ -70,7 +70,7 @@ export default function AnimatedGridPattern({
     if (dimensions.width && dimensions.height) {
       setSquares(generateSquares(numSquares));
     }
-  }, [dimensions, numSquares]);
+  }, [dimensions, numSquares,generateSquares]);
 
   // Resize observer to update container dimensions
   useEffect(() => {
@@ -93,6 +93,16 @@ export default function AnimatedGridPattern({
       }
     };
   }, [containerRef]);
+
+  // useEffect(() => {
+  //   const container = containerRef.current;
+  //   return () => {
+  //     // Use the copied variable
+  //     if (container) {
+  //       // Cleanup code
+  //     }
+  //   };
+  // }, [containerRef]);
 
   return (
     <svg
